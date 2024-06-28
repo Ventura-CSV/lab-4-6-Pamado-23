@@ -2,7 +2,8 @@ def main():
     iternum = 0
     N = int(input('Enter the value for N: '))
     for i in range(N):
-        for j in """ COMPLETE FOR LOOP STATEMENT """
+        for j in range (i, N):
+            """ COMPLETE FOR LOOP STATEMENT """
             print(f'({i}, {j})', end=' ')
             iternum += 1
         print()
